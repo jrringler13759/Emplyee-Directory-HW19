@@ -1,7 +1,6 @@
 import React from 'react';
-
 import Header from "./components/Header";
-import Table from "./components/Table";
+import Main from "./components/Main";
 import "./App.css"
 
 
@@ -11,7 +10,7 @@ function App() {
      
         <Header />
        
-        <Table />
+        <Main />
 
        
     </div>
