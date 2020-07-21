@@ -8,7 +8,7 @@ class Main extends React.Component {
       employees: employees,
       search: ""
     };
-  
+
     searchEmpl = event => {
 
     }
@@ -20,19 +20,15 @@ class Main extends React.Component {
     sortEmplByDOB = () => {
 
     }
-
-
+    
     render () {
         return (
             <div>
                 <Search searchEmpl= {this.searchEmpl}/>
-
                 <Table employees= {this.state.employees} sortEmplByName= {this.sortEmplByName} sortEmplByDOB= {this.sortEmplByDOB} />
-
             </div>
         )
     }
-
 }  
 
 export default Main;
