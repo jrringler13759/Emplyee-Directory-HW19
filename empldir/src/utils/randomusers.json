@@ -2,9 +2,64 @@
     {
         "id": 1,
         "image": "https://randomuser.me/api/portraits/thumb/men/18.jpg",
-        "name": "Gustav Kristensen",
-        "phone": "1965391287",
+        "firstName": "Gustav", 
+        "lastName": "Kristensen",
+        "phone": "9470293784",
         "email": "gustav.kristensen@example.com",
         "dob": "1988-03-02"
+    },
+    {
+        "id": 2,
+        "image": "https://randomuser.me/api/portraits/thumb/men/6.jpg",
+        "firstName": "William",
+        "lastName": "Madsen",
+        "phone": "7645097289",
+        "email": "william.madsen@example.com",
+        "dob": "1976-03-31"
+    },
+    {
+        "id": 3,
+        "image": "https://randomuser.me/api/portraits/thumb/men/80.jpg",
+        "firstName": "Julio ", 
+        "lastName": "Graves",
+        "phone": "2862549274",
+        "email": "julio.graves@example.com",
+        "dob": "1987-09-25"
+    },
+    {
+        "id": 4,
+        "image": "https://randomuser.me/api/portraits/thumb/women/33.jpg",
+        "firstName": "Simone",
+        "lastName": "Pickel",
+        "phone": "7392548452",
+        "email": "simone.pickel@example.com",
+        "dob": "1963-05-02"
+    },
+    {
+        "id": 5,
+        "image": "https://randomuser.me/api/portraits/thumb/women/86.jpg",
+        "firstName": "Camille", 
+        "lastName": "Roche",
+        "phone": "8462549733",
+        "email": "camille.roche@example.com",
+        "dob": "1969-01-21"
+    },
+    {
+        "id": 6,
+        "image": "https://randomuser.me/api/portraits/thumb/men/83.jpg",
+        "firstName": "Chiel", 
+        "lastName": "Dinnissen",
+        "phone": "9644635497",
+        "email": "chiel.dinnissen@example.com",
+        "dob": "1966-05-31"
+    },
+    {
+        "id": 7,
+        "image": "https://randomuser.me/api/portraits/thumb/women/52.jpg",
+        "firstName": "Tara",  
+        "lastName": "Perez",
+        "phone": "3779538247",
+        "email": "tara.perez@example.com",
+        "dob": "1948-04-20"
     }
 ]

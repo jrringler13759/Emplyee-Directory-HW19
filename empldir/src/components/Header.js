@@ -4,7 +4,7 @@ function Header () {
     return (
         <div>
             <h1>Employee Directory</h1>
-            <p>Click the carrots to filter by heading or use the search box to narrow your results</p>
+            <p>Click the Name or DOB heading to sort the column or use the search box to search by Last</p>
         </div>
     );
 }

@@ -3,7 +3,7 @@ import React from 'react';
 function SearchBox (props) {
     return (
         <div>
-            <input type = "text" placeholder = "Type Search Term Here" onChange = {(event) => props.searchEmpl(event)}></input>
+            <input type = "text" placeholder = "Type Last Name Here" onChange = {(event) => props.searchLastName(event)}></input>
         </div>
     )
 }

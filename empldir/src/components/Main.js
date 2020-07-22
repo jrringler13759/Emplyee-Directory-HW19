@@ -6,25 +6,48 @@ import employees from "../utils/randomusers.json"
 class Main extends React.Component {
     state = {
       employees: employees,
-      search: ""
+      search: "",
+      ordered: "A" ,
+      foundEmpl: []
     };
 
-    searchEmpl = event => {
+    searchLastName = () => {
+        const {employees, search} = this.state;
 
+        let foundEmpl = employees.filter(found => {
+            return (
+                found.lastName.toLowerCase().includes(search.toLowerCase())
+            )
+        })
+        this.setState({foundEmpl})
     }
 
     sortEmplByName = () => {
  //if state ===? then switch to the other state
+        if ( this.state.order === "A") {
+            this.setState({
+                order: "D"
+            });
+        } else {
+            this.setState ({
+                order: "A"
+            })
+        }
+
+        // this.setState({
+        //     order: "ascend"
+        // })
     }
 
     sortEmplByDOB = () => {
-
+        
     }
     
+
     render () {
         return (
             <div>
-                <Search searchEmpl= {this.searchEmpl}/>
+                <Search searchLastName= {this.searchLastName}/>
                 <Table employees= {this.state.employees} sortEmplByName= {this.sortEmplByName} sortEmplByDOB= {this.sortEmplByDOB} />
             </div>
         )
