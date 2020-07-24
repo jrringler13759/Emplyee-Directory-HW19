@@ -1,3 +1,8 @@
-.header {
-    background-color: rgba(112, 38, 112, 0.329);
+.Header {
+    background-color: rgba(123, 197, 45, 0.541);
+}
+
+p {
+    margin-bottom: 0px !important;
+    padding-bottom: 10px;
 }

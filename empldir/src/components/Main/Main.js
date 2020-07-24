@@ -1,7 +1,9 @@
 import React from 'react';
-import Search from "./Search";
-import Table from "./Table";
-import employees from "../utils/randomusers.json"
+import Header from "../Header/Header";
+import Search from "../Search/Search";
+import Table from "../Table/Table";
+import employees from "../../utils/randomusers.json";
+import "./main.css";
 
 class Main extends React.Component {
     state = {
@@ -10,7 +12,7 @@ class Main extends React.Component {
       nameOrdered: "A",
       dobOrdered: "" 
     };
-
+    
     searchLastName = (event) => {
        let searchName = event.target.value;
 
@@ -41,8 +43,6 @@ class Main extends React.Component {
                 dobOrdered: ""
             });
         }
-
-        
     }
 
     sortEmplByDOB = () => {
@@ -65,10 +65,11 @@ class Main extends React.Component {
         }
     }
     
-
     render () {
         return (
-            <div>
+            <div className = "Main">
+                <Header />
+                <hr></hr>
                 <Search searchLastName= {this.searchLastName}/>
                 <Table employees= {this.state.employees} sortEmplByName= {this.sortEmplByName} sortEmplByDOB= {this.sortEmplByDOB} />
             </div>

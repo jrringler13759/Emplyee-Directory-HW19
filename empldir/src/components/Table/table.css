@@ -1,0 +1,26 @@
+
+.table td {
+    vertical-align: middle !important;
+}
+
+.table th {
+    font-size: 20px !important;
+    font-weight: bolder !important;
+    line-height:2.3;
+    background-color: lightgray;
+}
+
+.table{
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: lightgray !important;
+    font-size: 20px !important;
+    font-weight: bolder !important;
+}
+
+
+

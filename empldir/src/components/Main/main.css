@@ -1,0 +1,10 @@
+.Main {
+    text-align: center;  
+}
+
+hr {
+    background-color: lightblue;
+    margin: 0 0 20px 0 !important;
+    height: 10px;
+}
+
